@@ -60,7 +60,7 @@ async function generateTestDBInstance() {
 }
 
 t.test('binary persistence', (t) => {
-  t.plan(6)
+  t.plan(5)
 
   t.test('should generate a persistence file on the disk with random name', async (t) => {
     t.plan(2)
